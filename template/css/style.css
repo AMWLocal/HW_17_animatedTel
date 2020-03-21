@@ -1,0 +1,48 @@
+/* styles goes here */
+body{
+    margin-top: 5px;
+}
+i{
+    font-size: 100px;
+    margin: 30px;
+    color: white;
+    cursor: pointer;
+    
+
+}
+i:hover{
+    animation-name:phoneShake;
+    animation-iteration-count: infinite;
+}
+
+.cicle{
+    background: greenyellow;
+    border-radius: 50%;
+    
+}
+@keyframes phoneShake {
+    15% {
+      
+      transform: translateX(9px);
+    }
+    30% {
+      
+      transform: translateX(-9px);
+    }
+    40% {
+     
+      transform: translateX(6px);
+    }
+    50% {
+     
+      transform: translateX(-6px);
+    }
+    65% {
+      
+      transform: translateX(3px);
+    }
+    100% {
+      
+      transform: translateX(0);
+    }
+  }
